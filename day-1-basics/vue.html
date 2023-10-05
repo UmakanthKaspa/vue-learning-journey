@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Learning Journey</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link rel="stylesheet" href="vue.css">
+    </head>
+    <body>
+        <div id="app">
+            <!-- creating app -->
+            <div class="container">
+                <h1 class="title">{{ apptitle }}</h1>
+                <p class="description">{{ description }}</p>
+
+
+                <!-- learning click event -->
+                <h1 class="title">{{ title }}</h1>
+                <p class="description">Number: {{ number }}</p>
+                <!-- in "" here we can wrote js -->
+                <!-- <button v-on:click="number++">Increase age</button>
+        <button @click="title ='New Dynamic Title'">Change Title</button>
+        <button @click="number ++">Increase Number</button>
+        <button @click="number --">Decrease Number</button> -->
+                <button @click="changeTitle('New Dynamic Title')">Change Title</button>
+                <button @click="increaseNumber">Increase Number</button>
+                <button @click="decreaseNumber">Decrease Number</button>
+
+
+                <!-- Conditional rendering example -->
+                <h3 class="title">Conditional Rendering</h3>
+                <p v-if="showMessage" class="description">This message is
+                    displayed because showMessage is true.</p>
+                <p v-else class="description">This message is displayed because
+                    showMessage is false.</p>
+                <!-- <button @click="showMessage = true">show Message</button>
+            <button @click="showMessage = false">hide Message</button> -->
+                <button @click="toggleMessage">Toggle Message</button>
+
+
+                <!-- learning  loops (v-for)   -->
+                <h2 class="title">To-Do List (Loops Example)</h2>
+
+                <!-- Input for adding tasks -->
+                <div class="add-task">
+                    <input ref="taskInput" placeholder="Add a new task">
+                    <button @click="addTask">Add</button>
+                </div>
+
+                <!-- List of tasks -->
+                <ul>
+                    <li v-for="(task, index) in tasks" :key="index">
+                        {{ task }}
+                        <button @click="removeTask(index)">Delete</button>
+                    </li>
+                </ul>
+                <!-- Other mouse events -->
+
+
+                <div class="box" @mouseover="handleEvents($event,5)">Mouse enter</div>
+                <div class="box" @mouseleave="handleEvents">Mouse Leave</div>
+                <div class="box" @dblclick="handleEvents">Double Click</div>
+                <p>{{x}}</p>
+                <p>{{y}}</p>
+                <div class="box" @mousemove="handleMousemove"></div>
+
+                <div class="product">
+                    <!-- <img v-bind:src="productImage" v-bind:alt="productAlt" class="product-image"> -->
+                    <img :src="productImage" :alt="productAlt"
+                        class="product-image">
+                    <div class="product-info">
+                        <h2>{{ productName }}</h2>
+                        <p class="product-description">{{ productDescription }}</p>
+                        <p class="product-price">{{ productPrice }}</p>
+                        <button :disabled="isOutOfStock" class="buy-button">{{
+                            buyButtonText }}</button>
+                    </div>
+                </div>
+                <h1 class="title">Dynamic Classes Example</h1>
+                <div class="element" :class="{'active': isActive, 'error':
+                    isError}">
+                    {{ message }}
+                </div>
+                <button @click="toggleClasses">Toggle Classes</button>
+                <h1>Computed Properties Example</h1>
+
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" v-model="firstName">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" v-model="lastName">
+
+                <p>Full Name: {{ fullName }}</p>
+                <h1 class="title">v-model Example</h1>
+
+                <label for="message">Enter a Message:</label>
+                <input type="text" id="message" v-model="userMessage">
+
+                <p>Message: {{ userMessage }}</p> </div>
+
+
+
+
+        </div>
+
+        <script src="vue.js"></script>
+    </body>
+</html>

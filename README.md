@@ -1,4 +1,4 @@
-## Day 1: Vue.js Basics 🚀
+## Vue.js Basics: Introduction and Fundamentals 🚀
 
 ### Topics Covered:
 - Introduction to Vue.js 🌟

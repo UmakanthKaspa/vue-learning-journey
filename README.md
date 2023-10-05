@@ -2,12 +2,15 @@
 
 ### Topics Covered:
 - Introduction to Vue.js 🌟
+  
   Today, I embarked on my Vue-tiful journey! I learned the basics of Vue.js, a progressive JavaScript framework. It's like the magic wand of web development! ✨
 
 - Setting up Vue.js in a project 🛠️
+  
   I set up Vue.js in my project, making it ready for some Vue-tiful action. 💪
 
 - Vue.js Instance and Data 🧬
+- 
   I explored Vue instances and data. It's like creating a mini universe inside your app! 🪐
 
 - Vue Directives (v-bind, v-model, v-on) 🤖

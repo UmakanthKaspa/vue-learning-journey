@@ -37,3 +37,16 @@
   
   I also dived into triggers and how they can enhance interactivity in Vue.js. Triggers are like secret buttons that make things happen! 🎉
 
+# Vue CLI Bigger Projects - Part 1 🚀
+
+In this session, I learned about setting up larger projects with Vue CLI, working with Vue files and templates, using template refs, creating multiple components, understanding the parent-child component relationship, and building a component tree.
+
+## Topics Covered:
+- Installing Node.js
+- Using Vue CLI
+- Creating a new project walkthrough
+- Working with Vue files and templates
+- Template refs
+- Creating and managing multiple components
+- Understanding the parent and child component relationship
+- Building a component tree

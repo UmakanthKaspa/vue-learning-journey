@@ -49,4 +49,4 @@ In this session, I learned about setting up larger projects with Vue CLI, workin
 - Template refs
 - Creating and managing multiple components
 - Understanding the parent and child component relationship
-- Building a component tree
+

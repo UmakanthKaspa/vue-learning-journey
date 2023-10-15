@@ -152,3 +152,42 @@ Intrigued? Clone this repository and dive into the world of Vue.js, where learni
 
 
 </details>
+
+<details>
+   <summary><strong> Vue.js 3 Web Form Handling
+</strong></summary>
+
+Welcome to my Vue.js 3 Web Form Handling project! In this section, I'll share my exciting learning journey and the practical knowledge I gained today.
+
+## Learning Highlights
+
+Today's adventure revolved around diving into the world of web form handling in Vue.js. Here's a glimpse of what I discovered and achieved:
+
+- **Setting Up Vue.js Project**: I kicked off by creating a new Vue.js project tailored for web form handling using Vue CLI. The journey started on a promising note.
+
+- **Structured Project and Signup Form**: With the project in place, I meticulously structured it and introduced a vital component named `SignupForm.vue`. This component serves as the central hub for user sign-up activities.
+
+- **Two-Way Data Binding**: Vue.js's `v-model` became my trusty ally for enabling two-way data binding. It seamlessly synchronized the form input fields with relevant data variables.
+
+- **Form Input Variety**: I explored and implemented various input types, covering text, password, select boxes, and checkboxes. This created a dynamic and user-friendly environment for form interaction.
+
+- **Keyboard Events**: Keyboard events, especially the `@keypress` event, were harnessed to capture user input for adding skills. It made the form more interactive and engaging.
+
+- **Dynamic Skills Management**: The Vue.js magic allowed me to add and remove skills on the fly. It's all about providing a smooth user experience.
+
+- **Form Validation**: Form validation is a crucial aspect of web forms. Today, I learned how to set up basic password validation, requiring a minimum of 6 characters.
+
+- **Form Submission and Feedback**: Last but not least, I mastered the art of form submission. I ensured that users receive prompt feedback upon form submission. This creates a sense of accomplishment.
+
+## What's Next?
+
+This project isn't just about code; it's about learning, growing, and mastering Vue.js. The knowledge I gained today serves as a stepping stone to more complex and exciting projects. So, stay tuned for the next adventure!
+
+## Branch and Commit Details
+
+- **Branch Name**: vue-forms-tutorial
+- **Commit Message**: Added form input handling and validation in the SignupForm component. Updated README for today's progress.
+
+It's been an incredible day of learning, and I can't wait to see where the Vue.js journey takes me next. Until then, happy coding!
+
+  </details>

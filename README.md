@@ -145,9 +145,9 @@ So, what's this project all about, and how does it work? Let me break it down fo
 Intrigued? Clone this repository and dive into the world of Vue.js, where learning meets fun, and you become a coding ninja in style. Time to unleash your inner superhero and become a Vue-tastic master! 🚀🦸‍♂️
 
 ## Video Preview
-![Click to watch the video](/reaction-timer/src/assets/Reaction-timer.webm)
+![Click to watch the video](/reaction-timer/src/assets/Reaction-timer.mp4)
 
-[![Watch the Video](Reaction-timer.webm)](/reaction-timer/src/assets/Reaction-timer.webm)
+[![Watch the Video](Reaction-timer.mp4)](/reaction-timer/src/assets/Reaction-timer.mp4)
 
 
 

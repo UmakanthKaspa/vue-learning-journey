@@ -116,3 +116,5 @@ In Vue.js, components form a tree-like structure. Learn how to build a component
 - It's useful for rendering modals, dialogs, and other dynamic elements in your application.
 
 </details>
+## Video Preview
+[Reaction-timer.webm](https://github.com/UmakanthKaspa/vue-learning-journey/assets/124495588/98cb260e-3cc9-428b-b103-de83e10aca6d)

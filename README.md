@@ -116,5 +116,39 @@ In Vue.js, components form a tree-like structure. Learn how to build a component
 - It's useful for rendering modals, dialogs, and other dynamic elements in your application.
 
 </details>
+<details>
+   <summary><strong> Vue.js 3 Reaction Timer Game</strong></summary>
+Welcome to my Vue.js 3 Reaction Timer Game project! In this section, you'll find a brief overview of my journey and the structure of this simple yet fun web application.
+
+## Introduction
+
+This project is a part of my Vue.js learning journey, where I decided to build a small yet engaging game to apply my Vue.js skills. Here's a quick rundown of my journey:
+
+- Created a new Vue.js project using Vue CLI.
+- Cleaned the default components and dependencies.
+- Developed the game with three primary components:
+  - `App.vue`: The main Vue app component responsible for game logic.
+  - `Block.vue`: A component representing the flashing block for players to click as quickly as possible.
+  - `Result.vue`: A component to display the user's reaction time and rank.
+- Utilized Vue.js concepts, including custom events, data binding, and lifecycle hooks.
+- Gained insights into Vue.js lifecycle hooks like `mounted`, `updated`, and `unmounted`.
+- Used custom events to pass data between components.
+
+So, what's this project all about, and how does it work? Let me break it down for you:
+
+🎮 **The Game**: Imagine a flashy, colorful block that appears on your screen. Your mission, should you choose to accept it, is to click that block as quickly as humanly possible.
+
+⏱️ **Reaction Time**: Every time you click the block, we measure your reaction time. Are you the Flash, or more of a "relaxed and laid-back" kind of superhero?
+
+🥋 **Rank**: Based on your reaction time, you'll receive a rank. Will you be the ultimate "Ninja Fingers" with superhuman reflexes, or perhaps you're more of a "Casual Stroller" through the Vue-tiful world of web development?
+
+Intrigued? Clone this repository and dive into the world of Vue.js, where learning meets fun, and you become a coding ninja in style. Time to unleash your inner superhero and become a Vue-tastic master! 🚀🦸‍♂️
+
 ## Video Preview
-[Reaction-timer.webm](https://github.com/UmakanthKaspa/vue-learning-journey/assets/124495588/98cb260e-3cc9-428b-b103-de83e10aca6d)
+![Click to watch the video](/reaction-timer/src/assets/Reaction-timer.webm)
+
+[![Watch the Video](Reaction-timer.webm)](/reaction-timer/src/assets/Reaction-timer.webm)
+
+
+
+</details>

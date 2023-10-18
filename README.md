@@ -249,14 +249,18 @@ In this session, I delved into the following key topics:
 To run this project locally, follow these steps:
 
 1. **Start JSON Server:** Before running the Vue.js app, start the JSON server to serve product data. Open your terminal and navigate to your project directory. Then run the following command:
+```bash
 json-server --watch data/db.json
 
+```
 
-2. **Run Vue.js App:** Open another terminal window, navigate to your project directory, and run the Vue.js application using the following command:
+
+3. **Run Vue.js App:** Open another terminal window, navigate to your project directory, and run the Vue.js application using the following command:
+```bash
 npm run serve
+```
 
-
-3. Once both JSON Server and the Vue.js app are running, open your web browser and access the Vue app at the specified URL (usually http://localhost:8080/).
+5. Once both JSON Server and the Vue.js app are running, open your web browser and access the Vue app at the specified URL (usually http://localhost:8080/).
 
 This README acts as a personal diary of my Vue.js 3 tutorial progress. It serves to track my learning journey and also shares my insights with others who might find it helpful.
 

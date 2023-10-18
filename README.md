@@ -2,7 +2,7 @@
 
 Finally, I've taken the leap and started my Vue.js learning journey! This repository is my personal space where I document my Vue.js learning progress and keep track of my adventures with this fantastic framework. It's all about personal satisfaction and self-improvement. Let's get started!
 <details>
-  <summary><strong>Vue.js Basics: Introduction and Fundamentals 🚀</strong></summary>
+  <summary><strong> Vue.js 3 Basics: Introduction and Fundamentals 🚀</strong></summary>
 
   ## Introduction
   Welcome to the world of Vue.js! In this section, you'll embark on a journey to explore the fundamental concepts and features of Vue.js, a progressive JavaScript framework. Vue.js is like a magic wand in the realm of web development, empowering you to create dynamic and interactive web applications. Let's dive into the essentials!
@@ -47,7 +47,7 @@ Dive into triggers and understand how they enhance interactivity in Vue.js. Trig
 </details>
 
 <details>
-  <summary><strong>Vue CLI Bigger Projects 🚀</strong></summary>
+  <summary><strong> Vue.js 3 CLI Bigger Projects 🚀</strong></summary>
 
   ## Introduction
   In this section, you'll level up your Vue.js skills by tackling larger projects using Vue CLI. You'll explore setting up substantial projects, working with Vue files and templates, using template refs, creating and managing multiple components, understanding the parent-child component relationship, and building a complex component tree.
@@ -221,5 +221,45 @@ These are some of the features you'll explore in this project as you dive into t
 - Commit Message: 🚀 Added form input handling and validation in the SignupForm component. Updated README for today's progress.
 
 Time to commit the code and move on to the next steps of my Vue.js learning journey. Stay tuned for more exciting adventures!
+
+  </details>
+<details>
+   <summary><strong> 🚀 Vue.js 3  Fetching Data
+</strong></summary>
+Welcome to my Vue.js 3 tutorial journey where I'm documenting my progress in today's session focused on fetching data.
+
+## Overview
+
+In this session, I delved into the following key topics:
+
+- **JSON Server Setup:** Created a local JSON server with a `db.json` file located in a "data" folder. This server acts as our backend to fetch product data.
+
+- **Installing JSON Server:** I installed the JSON server using npm, making it easy to manage my data locally.
+
+- **Fetching Data:** I explored how to fetch data from the JSON server using JavaScript's `fetch` method, connecting my Vue.js application to the database.
+
+- **Conditional Rendering:** Demonstrated conditional rendering techniques for displaying product data. It ensures that my app shows a loading message while data is being fetched and displays the product details once available.
+
+- **Product List Component:** Developed a product list component that showcases product titles, descriptions, and thumbnails, offering a user-friendly interface for navigating products.
+
+- **Product Details Component:** Designed a product details component that includes user-friendly navigation buttons to return to the product list or go forward.
+
+## How to Get Started
+
+To run this project locally, follow these steps:
+
+1. **Start JSON Server:** Before running the Vue.js app, start the JSON server to serve product data. Open your terminal and navigate to your project directory. Then run the following command:
+json-server --watch data/db.json
+
+
+2. **Run Vue.js App:** Open another terminal window, navigate to your project directory, and run the Vue.js application using the following command:
+npm run serve
+
+
+3. Once both JSON Server and the Vue.js app are running, open your web browser and access the Vue app at the specified URL (usually http://localhost:8080/).
+
+This README acts as a personal diary of my Vue.js 3 tutorial progress. It serves to track my learning journey and also shares my insights with others who might find it helpful.
+
+Stay tuned for more exciting Vue.js adventures!
 
   </details>

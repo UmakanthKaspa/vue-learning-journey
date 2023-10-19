@@ -2,7 +2,7 @@
 
 Finally, I've taken the leap and started my Vue.js learning journey! This repository is my personal space where I document my Vue.js learning progress and keep track of my adventures with this fantastic framework. It's all about personal satisfaction and self-improvement. Let's get started!
 <details>
-  <summary><strong> Vue.js 3 Basics: Introduction and Fundamentals 🚀</strong></summary>
+  <summary><strong>🚀  Vue.js 3 Basics: Introduction and Fundamentals 🚀</strong></summary>
 
   ## Introduction
   Welcome to the world of Vue.js! In this section, you'll embark on a journey to explore the fundamental concepts and features of Vue.js, a progressive JavaScript framework. Vue.js is like a magic wand in the realm of web development, empowering you to create dynamic and interactive web applications. Let's dive into the essentials!
@@ -47,7 +47,7 @@ Dive into triggers and understand how they enhance interactivity in Vue.js. Trig
 </details>
 
 <details>
-  <summary><strong> Vue.js 3 CLI Bigger Projects 🚀</strong></summary>
+  <summary><strong>🚀  Vue.js 3 CLI Bigger Projects 🚀</strong></summary>
 
   ## Introduction
   In this section, you'll level up your Vue.js skills by tackling larger projects using Vue CLI. You'll explore setting up substantial projects, working with Vue files and templates, using template refs, creating and managing multiple components, understanding the parent-child component relationship, and building a complex component tree.
@@ -117,7 +117,7 @@ In Vue.js, components form a tree-like structure. Learn how to build a component
 
 </details>
 <details>
-   <summary><strong> Vue.js 3 Reaction Timer Game</strong></summary>
+   <summary><strong>🚀  Vue.js 3 Reaction Timer Game</strong></summary>
 Welcome to my Vue.js 3 Reaction Timer Game project! In this section, you'll find a brief overview of my journey and the structure of this simple yet fun web application.
 
 ## Introduction

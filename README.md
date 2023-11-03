@@ -1,6 +1,6 @@
 # My Vuetiful Vue.js Learning Journey 🚀
 
-Finally, I've taken the leap and started my Vue.js learning journey! This repository is my personal space where I document my Vue.js learning progress and keep track of my adventures with this fantastic framework. It's all about personal satisfaction and self-improvement. Let's get started!
+Finally, I've taken the leap and started my Vue.js learning journey! This repository is my personal space where I document my Vue.js learning progress and keep track of my progress with this fantastic framework. It's all about personal satisfaction and self-improvement. Let's get started!
 <details>
   <summary><strong>🚀  Vue.js 3 Basics: Introduction and Fundamentals 🚀</strong></summary>
 

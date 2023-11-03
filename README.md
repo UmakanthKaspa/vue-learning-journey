@@ -267,3 +267,43 @@ This README acts as a personal diary of my Vue.js 3 tutorial progress. It serves
 Stay tuned for more exciting Vue.js adventures!
 
   </details>
+
+
+<details>
+  <summary><strong>🚀  Vue.js 3 Composition API  🚀</strong></summary>
+ 
+## Topics Covered 📚
+
+1. **Getting Started** 🛠️
+   - Created a Vue project using Vue CLI.
+   - Cleaned up unnecessary files to start fresh.
+
+2. **Template Refs** 🔍
+   - Mastered the use of `template refs` for easy DOM manipulation.
+
+3. **Reactive Magic** 🔮
+   - Leveraged `refs` for creating dynamic and reactive data.
+
+4. **Refs vs. Reactive** 🔄
+   - Compared `refs` and `reactive`, and understood the importance of object-based reactivity.
+
+5. **Computed Brilliance** 🧮
+   - Enhanced your app with computed values for dynamic data.
+
+6. **Watching & Reacting** 🧐
+   - Delved into `watch` and `watchEffect` for powerful reactivity.
+
+7. **Props in Setup** 🎁
+   - Efficiently handled component props within the `setup` function.
+
+8. **Lifecycle in Setup** 🔄
+   - Emulated Vue's lifecycle hooks within the `setup` function.
+
+9. **Data Fetching in Setup** 📦
+   - Perfected the art of fetching and managing data within the `setup` function.
+
+10. **Reusable Composables** ♻️
+    - Created and applied reusable composables for modular code organization.
+
+
+ </details>
